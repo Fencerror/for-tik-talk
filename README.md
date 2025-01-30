@@ -1,59 +1,62 @@
-# ForTikTalk
+# TikTalk
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+TikTalk — это pet-проект, представляющий собой чат-приложение, разработанное с использованием современных технологий.
 
-## Development server
+## 🚀 Технологии
 
-To start a local development server, run:
+Проект использует следующие технологии и инструменты:
+- **Frontend**: Angular
+- **Backend**: Node.js, Express
+- **База данных**: MongoDB
+- **Аутентификация**: JWT
+- **Контейнеризация**: Docker
 
-```bash
-ng serve
+## 📌 Функционал
+
+- Регистрация и аутентификация пользователей
+- Реализация чатов (личные и групповые)
+- Отправка текстовых сообщений
+- Поддержка WebSocket для мгновенного обмена сообщениями
+- Хранение истории сообщений в базе данных
+
+## 📦 Установка и запуск
+
+### 1. Клонирование репозитория
+```sh
+git clone https://github.com/Fencerror/Pet-project__TikTalk.git
+cd Pet-project__TikTalk
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+### 2. Запуск с помощью Docker
+```sh
+docker-compose up --build
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 3. Запуск вручную
 
-```bash
-ng generate --help
+#### Backend
+```sh
+cd backend
+npm install
+npm start
 ```
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
+#### Frontend
+```sh
+cd frontend
+npm install
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Приложение будет доступно по адресу `http://localhost:4200`.
 
-## Running unit tests
+## 🛠 Планы по доработке
+- Добавление поддержки мультимедиа (изображения, видео)
+- Улучшение UI/UX
+- Реализация уведомлений
+- Оптимизация производительности
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📄 Лицензия
 
-```bash
-ng test
-```
+Этот проект распространяется под лицензией MIT. Подробнее см. [LICENSE](./LICENSE).
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
