@@ -1,0 +1,8 @@
+.profile-search-form{
+  padding: 16px 20px;
+  background: var(--dark-color);
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(200px,300px)); 
+  grid-gap: 40px;
+  
+}
