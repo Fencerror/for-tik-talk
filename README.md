@@ -9,14 +9,10 @@
 
 Проект включает в себя форму авторизации, страницу профиля, чаты, поиск людей и др.
 
-## Скриншоты приложения
+## Дизайн приложения:
 
 
-### Чаты:
 ![image](https://github.com/user-attachments/assets/d1b7ca4a-d1ab-41fe-aff8-e6991c98deb4)
-
-### Страница профиля:
-![image](https://github.com/user-attachments/assets/9844cca1-2003-4c75-bab3-240bde31e208)
 
 
 ### Запуск проекта
