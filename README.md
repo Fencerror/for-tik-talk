@@ -28,4 +28,9 @@ ng serve
 
 После этого приложение будет доступно по адресу: `http://localhost:4200/`
 
+Логин и пароль для авторизации можно взять в телеграм боте https://t.me/icherniakov_info_bot.
+
+![image](https://github.com/user-attachments/assets/756ca987-64fc-45fd-b8f5-a22b753a77c3)
+
+
 ---
