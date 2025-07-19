@@ -7,15 +7,15 @@ import { canActivateAuth } from './auth/access.guard';
 import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
 
 export const routes: Routes = [
-  {path:'', component:LayoutComponent, children : [  //Компонент Layout имеет два дочерник компонента. Таким образом он будет на обоих.
+  {path:'', component:LayoutComponent, children : [  
     {path: '', redirectTo: 'profile/me', pathMatch: 'full'}, 
     {path: 'search', component: SearchPageComponent},           
     {path: 'profile/:id', component:ProfilePageComponent},
     {path: 'settings', component: SettingsPageComponent},
   ], 
-
+  
   canActivate: [canActivateAuth],
   },
-  {path: 'login', component: LoginPageComponent} //При переходе на login будет страница login и тд.
+  {path: 'login', component: LoginPageComponent} 
   
 ];

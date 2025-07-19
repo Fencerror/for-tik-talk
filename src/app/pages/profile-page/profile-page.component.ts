@@ -8,7 +8,7 @@ import { toObservable } from '@angular/core/rxjs-interop';
 import { AsyncPipe } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { ImgUrlPipe } from "../../helpers/pipes/img-url.pipe";
+import { ImgUrlPipe } from '../../data/pipes/img-url.pipe';
 import { PostFeedComponent } from "./post-feed/post-feed.component";
 
 @Component({

@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { ProfileService } from '../../data/services/profile.service';
 import { firstValueFrom, Observable } from 'rxjs';
 import { Profile } from '../../data/interfaces/profile.interface';
-import { ImgUrlPipe } from "../../helpers/pipes/img-url.pipe";
+import { ImgUrlPipe } from '../../data/pipes/img-url.pipe';
 import { RouterLinkActive } from '@angular/router';
 @Component({
   selector: 'app-sidebar',
