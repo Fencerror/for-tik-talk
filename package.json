@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href /for-tik-talk/ && copy dist\\for-tik-talk\\browser\\index.html dist\\for-tik-talk\\browser\\404.html && npx angular-cli-ghpages --dir=dist/for-tik-talk/browser"
+
   },
   "private": true,
   "dependencies": {
