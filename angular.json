@@ -21,6 +21,7 @@
             "outputPath": "dist/for-tik-talk",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/for-tik-talk/",
             "polyfills": [
               "zone.js"
             ],
@@ -96,6 +97,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
